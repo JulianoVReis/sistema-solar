@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;   
+}
+
+body {
+    background-image: url('imagens/espaco.webp');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0);
+    height: 80px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+main p {
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+nav a:hover {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+section {
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+}
+
+section h1, h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 24px;
+}
+
+footer {
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
