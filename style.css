@@ -1,84 +1,46 @@
 @charset "UTF-8";
 
 * {
+    padding: 0px;
     margin: 0px;
-    padding: 0px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mercurio {
+    background-image: url("imagens/mercurio.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.700);
+    color: yellow;
+    min-height: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 body {
     background-image: url('imagens/espaco.webp');
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    background-color: rgba(0, 0, 0, 0);
-    height: 80px;
-    color: white;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 2.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
-    background-color: white;
     min-width: 320px;
-    max-width: 800px;
-    margin: 10px auto;
+    max-width: 1000px;
+    margin: auto;
 }
 
 main p {
+    font-size: 1.1em;
+    line-height: 24px;
+    text-align: justify;
     padding-bottom: 10px;
 }
 
-nav {
-    background-color: white;
-    min-width: 320px;
-    max-width: 800px;
-    margin: auto;
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-    padding-left: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 4px;
-}
-
-nav a:hover {
-    background-color: blue;
-    border-radius: 5px;
-}
-
 section {
-    background-color: white;
-    text-align: justify;
     padding: 10px;
-}
-
-section h1, h2 {
-    margin-bottom: 10px;
-}
-
-section p {
-    font-size: 1.1em;
-    line-height: 24px;
-}
-
-footer {
     background-color: white;
-    min-width: 320px;
-    max-width: 800px;
-    padding: 5px;
-    margin: auto;
-    border-radius: 10px;
-    text-align: center;
 }
