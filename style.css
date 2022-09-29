@@ -23,7 +23,7 @@ header h1 {
 }
 
 section {
-    background-color: #9BF2EA;
+    background-color: #def7ff;
 }
 
 section h1 {
@@ -34,9 +34,18 @@ section h1 {
     font-size: 3em;
 }
 
+section p {
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
 h2 {
     text-align: center;
     padding-top: 10px;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.300);
 }
 
 h3 {
@@ -52,13 +61,6 @@ span {
     border: 5px solid white;
 }
 
-main p {
-    padding: 10px;
-    text-align: justify;
-    font-size: 1.1em;
-    line-height: 1.6;
-}
-
 .imagem {
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,7 +69,7 @@ main p {
 }
 
 #img01 {
-    background-image: url('imagens/terra.jpg');
+    background-image: url('imagens/terra02.jpg');
 }
 
 #img02 {
@@ -76,6 +78,34 @@ main p {
 
 #img03 {
     background-image: url('imagens/sol.jpg');
+}
+
+#img04 {
+    background-image: url('imagens/venus.jpg');
+}
+
+#img05 {
+    background-image: url('imagens/terra.jpg');
+}
+
+#img06 {
+    background-image: url('imagens/marte.jpg');
+}
+
+#img07 {
+    background-image: url('imagens/jupiter.webp');
+}
+
+#img08 {
+    background-image: url('imagens/saturno.jpg');
+}
+
+#img09 {
+    background-image: url('imagens/urano.jpg');
+}
+
+#img10 {
+    background-image: url('imagens/netuno.jpg');
 }
 
 img {
