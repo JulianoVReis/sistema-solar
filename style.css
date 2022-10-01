@@ -23,7 +23,7 @@ header h1 {
 }
 
 section {
-    background-color: #def7ff;
+    background-color: white;
 }
 
 section h1 {
@@ -37,8 +37,10 @@ section h1 {
 section p {
     padding: 10px;
     text-align: justify;
-    font-size: 1.1em;
     line-height: 1.6;
+    width: px;
+    margin: 20px;
+    background-color: #F1F2F2;
 }
 
 h2 {
